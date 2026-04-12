@@ -87,7 +87,7 @@ SHOW FULL PROCESSLIST; # Show the last queries executed in MySQL
 # Altering Table Structure
 # *****************************************************************************
 
-ALTER TABLE table_name ADD column_name datatype;               # Add a new column to an existing table
+ALTER TABLE table_name ADD COLUMN column_name datatype;        # Add a new column to an existing table
 ALTER TABLE table_name MODIFY COLUMN column_name datatype;     # Change the data type of a column
 ALTER TABLE table_name RENAME COLUMN old_name TO new_name;     # Rename a column (MySQL 8.0+)
 ALTER TABLE table_name DROP COLUMN column_name;                # Remove a column from a table
